@@ -1,3 +1,13 @@
+
+// Stacks are useful when we need to make sure elements follow the LIFO pattern. Some examples of stack usage are:
+
+// JavaScript's call stack.
+// Managing function invocations in various programming languages.
+// The undo/redo functionality many programs offer.
+// There's more than one way to implement a stack, but probably the simplest is using an array with its push and pop methods. If we only use pop and push for adding and deleting elements, we'll always follow the LIFO pattern and so operate over it like a stack.
+
+// Another way is to implement it like a list, which may look like this:
+
 // We create a class for each node within the stack
 class Node {
   // Each node has two properties, its value and a pointer that indicates the node that follows
